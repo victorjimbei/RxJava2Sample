@@ -31,10 +31,12 @@ public class NullsActivity extends AppCompatActivity {
   }
 
   private void setOutputText(Object text) {
-    tvOutput.setText(text==null ? "null" : text.toString());
+    tvOutput.append(text == null ? "null" : text.toString());
+    tvOutput.append("\n");
   }
 
   private void setOutputThrowable(Throwable throwable) {
     tvOutput.setText(throwable.getLocalizedMessage());
+    tvOutput.append("\n");
   }
 }

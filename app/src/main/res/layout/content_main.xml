@@ -15,15 +15,26 @@
   tools:showIn="@layout/activity_main">
 
   <TextView
+    android:id="@+id/tv_hello"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Hello World!"/>
 
   <Button
+    android:id="@+id/btn_nulls"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_below="@+id/tv_hello"
     android:layout_centerHorizontal="true"
     android:onClick="onTestNull"
-    android:paddingTop="24dp"
     android:text="Nulls"/>
+
+  <Button
+    android:id="@+id/btn_single"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn_nulls"
+    android:layout_centerHorizontal="true"
+    android:onClick="onTestSingle"
+    android:text="Single"/>
 </RelativeLayout>
