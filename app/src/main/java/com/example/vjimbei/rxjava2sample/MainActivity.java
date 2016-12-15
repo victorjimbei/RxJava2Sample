@@ -40,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
     startActivity(new Intent(this, NullsActivity.class));
   }
 
+  public void onTestFlowable(View view) {
+    startActivity(new Intent(this, FlowableActivity.class));
+  }
+
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     // Handle action bar item clicks here. The action bar will

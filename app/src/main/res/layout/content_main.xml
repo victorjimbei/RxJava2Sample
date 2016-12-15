@@ -26,4 +26,12 @@
     android:onClick="onTestNull"
     android:paddingTop="24dp"
     android:text="Nulls"/>
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:onClick="onTestFlowable"
+    android:paddingTop="24dp"
+    android:text="Flowable"/>
 </RelativeLayout>
